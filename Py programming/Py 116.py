@@ -1,0 +1,7 @@
+word=list()
+word.append('Python')
+word.append('Programming')
+word.sort()
+print(word[1])
+print(word.__getitem__(0))
+print(list.__getitem__(word,0))
